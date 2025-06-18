@@ -1,0 +1,31 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de configuración/secretos
+*.env
+*.pem
+*.key
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Archivos de logs y bases de datos
+*.log
+*.sqlite3
+*.db
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de VS Code u otros editores
+.vscode/
+.idea/
+
+# Carpeta de resultados si usas modelos entrenados o imágenes
+runs/
